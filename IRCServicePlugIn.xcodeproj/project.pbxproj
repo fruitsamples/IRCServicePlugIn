@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55D9420E136A0AF8000AA2CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D9420D136A0AF8000AA2CE /* Cocoa.framework */; };
+		55D94218136A0AF8000AA2CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55D94216136A0AF8000AA2CE /* InfoPlist.strings */; };
+		55D94225136A0C3F000AA2CE /* IRCServicePlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D94220136A0C3F000AA2CE /* IRCServicePlugIn.m */; };
+		55D94226136A0C3F000AA2CE /* MessageConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D94222136A0C3F000AA2CE /* MessageConverter.m */; };
+		55D94227136A0C3F000AA2CE /* Notice.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D94224136A0C3F000AA2CE /* Notice.m */; };
+		55D9422D136A0C5E000AA2CE /* IRCLineStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D9422A136A0C5E000AA2CE /* IRCLineStream.m */; };
+		55D9422E136A0C5E000AA2CE /* IRCSocketStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D9422C136A0C5E000AA2CE /* IRCSocketStream.m */; };
+		55D94234136A0C7F000AA2CE /* IRCTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D94231136A0C7F000AA2CE /* IRCTypes.m */; };
+		55D94235136A0C7F000AA2CE /* IRCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D94233136A0C7F000AA2CE /* IRCConnection.m */; };
+		55D94237136A0DFB000AA2CE /* Console.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 55D94236136A0DFB000AA2CE /* Console.tiff */; };
+		55D9423D136A1601000AA2CE /* IMServicePlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D9423C136A1601000AA2CE /* IMServicePlugIn.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55D9420A136A0AF8000AA2CE /* IRC.imserviceplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRC.imserviceplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D9420D136A0AF8000AA2CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55D94210136A0AF8000AA2CE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55D94211136A0AF8000AA2CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55D94212136A0AF8000AA2CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55D94215136A0AF8000AA2CE /* IRCServicePlugIn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRCServicePlugIn-Info.plist"; sourceTree = "<group>"; };
+		55D94217136A0AF8000AA2CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55D94219136A0AF8000AA2CE /* IRCServicePlugIn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRCServicePlugIn-Prefix.pch"; sourceTree = "<group>"; };
+		55D9421F136A0C3F000AA2CE /* IRCServicePlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCServicePlugIn.h; sourceTree = "<group>"; };
+		55D94220136A0C3F000AA2CE /* IRCServicePlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCServicePlugIn.m; sourceTree = "<group>"; };
+		55D94221136A0C3F000AA2CE /* MessageConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageConverter.h; sourceTree = "<group>"; };
+		55D94222136A0C3F000AA2CE /* MessageConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageConverter.m; sourceTree = "<group>"; };
+		55D94223136A0C3F000AA2CE /* Notice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notice.h; sourceTree = "<group>"; };
+		55D94224136A0C3F000AA2CE /* Notice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notice.m; sourceTree = "<group>"; };
+		55D94229136A0C5E000AA2CE /* IRCLineStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCLineStream.h; sourceTree = "<group>"; };
+		55D9422A136A0C5E000AA2CE /* IRCLineStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCLineStream.m; sourceTree = "<group>"; };
+		55D9422B136A0C5E000AA2CE /* IRCSocketStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCSocketStream.h; sourceTree = "<group>"; };
+		55D9422C136A0C5E000AA2CE /* IRCSocketStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCSocketStream.m; sourceTree = "<group>"; };
+		55D94230136A0C7F000AA2CE /* IRCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCTypes.h; sourceTree = "<group>"; };
+		55D94231136A0C7F000AA2CE /* IRCTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCTypes.m; sourceTree = "<group>"; };
+		55D94232136A0C7F000AA2CE /* IRCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCConnection.h; sourceTree = "<group>"; };
+		55D94233136A0C7F000AA2CE /* IRCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCConnection.m; sourceTree = "<group>"; };
+		55D94236136A0DFB000AA2CE /* Console.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Console.tiff; sourceTree = "<group>"; };
+		55D9423C136A1601000AA2CE /* IMServicePlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMServicePlugIn.framework; path = ../../../../../../../System/Library/Frameworks/IMServicePlugIn.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D94207136A0AF8000AA2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D9423D136A1601000AA2CE /* IMServicePlugIn.framework in Frameworks */,
+				55D9420E136A0AF8000AA2CE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D941FF136A0AF8000AA2CE = {
+			isa = PBXGroup;
+			children = (
+				55D9423C136A1601000AA2CE /* IMServicePlugIn.framework */,
+				55D94213136A0AF8000AA2CE /* IRCServicePlugIn */,
+				55D9420C136A0AF8000AA2CE /* Frameworks */,
+				55D9420B136A0AF8000AA2CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55D9420B136A0AF8000AA2CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D9420A136A0AF8000AA2CE /* IRC.imserviceplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D9420C136A0AF8000AA2CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55D9420D136A0AF8000AA2CE /* Cocoa.framework */,
+				55D9420F136A0AF8000AA2CE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55D9420F136A0AF8000AA2CE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55D94210136A0AF8000AA2CE /* AppKit.framework */,
+				55D94211136A0AF8000AA2CE /* CoreData.framework */,
+				55D94212136A0AF8000AA2CE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		55D94213136A0AF8000AA2CE /* IRCServicePlugIn */ = {
+			isa = PBXGroup;
+			children = (
+				55D9422F136A0C71000AA2CE /* IRC Framework */,
+				55D94228136A0C4F000AA2CE /* Stream */,
+				55D9421F136A0C3F000AA2CE /* IRCServicePlugIn.h */,
+				55D94220136A0C3F000AA2CE /* IRCServicePlugIn.m */,
+				55D94221136A0C3F000AA2CE /* MessageConverter.h */,
+				55D94222136A0C3F000AA2CE /* MessageConverter.m */,
+				55D94223136A0C3F000AA2CE /* Notice.h */,
+				55D94224136A0C3F000AA2CE /* Notice.m */,
+				55D94214136A0AF8000AA2CE /* Supporting Files */,
+			);
+			path = IRCServicePlugIn;
+			sourceTree = "<group>";
+		};
+		55D94214136A0AF8000AA2CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D94236136A0DFB000AA2CE /* Console.tiff */,
+				55D94215136A0AF8000AA2CE /* IRCServicePlugIn-Info.plist */,
+				55D94216136A0AF8000AA2CE /* InfoPlist.strings */,
+				55D94219136A0AF8000AA2CE /* IRCServicePlugIn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55D94228136A0C4F000AA2CE /* Stream */ = {
+			isa = PBXGroup;
+			children = (
+				55D94229136A0C5E000AA2CE /* IRCLineStream.h */,
+				55D9422A136A0C5E000AA2CE /* IRCLineStream.m */,
+				55D9422B136A0C5E000AA2CE /* IRCSocketStream.h */,
+				55D9422C136A0C5E000AA2CE /* IRCSocketStream.m */,
+			);
+			path = Stream;
+			sourceTree = "<group>";
+		};
+		55D9422F136A0C71000AA2CE /* IRC Framework */ = {
+			isa = PBXGroup;
+			children = (
+				55D94230136A0C7F000AA2CE /* IRCTypes.h */,
+				55D94231136A0C7F000AA2CE /* IRCTypes.m */,
+				55D94232136A0C7F000AA2CE /* IRCConnection.h */,
+				55D94233136A0C7F000AA2CE /* IRCConnection.m */,
+			);
+			path = "IRC Framework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D94209136A0AF8000AA2CE /* IRCServicePlugIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D9421C136A0AF8000AA2CE /* Build configuration list for PBXNativeTarget "IRCServicePlugIn" */;
+			buildPhases = (
+				55D94206136A0AF8000AA2CE /* Sources */,
+				55D94207136A0AF8000AA2CE /* Frameworks */,
+				55D94208136A0AF8000AA2CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRCServicePlugIn;
+			productName = IRCServicePlugIn;
+			productReference = 55D9420A136A0AF8000AA2CE /* IRC.imserviceplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D94201136A0AF8000AA2CE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 55D94204136A0AF8000AA2CE /* Build configuration list for PBXProject "IRCServicePlugIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55D941FF136A0AF8000AA2CE;
+			productRefGroup = 55D9420B136A0AF8000AA2CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D94209136A0AF8000AA2CE /* IRCServicePlugIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D94208136A0AF8000AA2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D94218136A0AF8000AA2CE /* InfoPlist.strings in Resources */,
+				55D94237136A0DFB000AA2CE /* Console.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D94206136A0AF8000AA2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D94225136A0C3F000AA2CE /* IRCServicePlugIn.m in Sources */,
+				55D94226136A0C3F000AA2CE /* MessageConverter.m in Sources */,
+				55D94227136A0C3F000AA2CE /* Notice.m in Sources */,
+				55D9422D136A0C5E000AA2CE /* IRCLineStream.m in Sources */,
+				55D9422E136A0C5E000AA2CE /* IRCSocketStream.m in Sources */,
+				55D94234136A0C7F000AA2CE /* IRCTypes.m in Sources */,
+				55D94235136A0C7F000AA2CE /* IRCConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55D94216136A0AF8000AA2CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D94217136A0AF8000AA2CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55D9421A136A0AF8000AA2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Library/iChat/PlugIns;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = "$(PROJECT_DIR)/build";
+			};
+			name = Debug;
+		};
+		55D9421B136A0AF8000AA2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Library/iChat/PlugIns;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				SYMROOT = "$(PROJECT_DIR)/build";
+			};
+			name = Release;
+		};
+		55D9421D136A0AF8000AA2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRCServicePlugIn/IRCServicePlugIn-Prefix.pch";
+				INFOPLIST_FILE = "IRCServicePlugIn/IRCServicePlugIn-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/iChat/PlugIns";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = IRC;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = imserviceplugin;
+			};
+			name = Debug;
+		};
+		55D9421E136A0AF8000AA2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRCServicePlugIn/IRCServicePlugIn-Prefix.pch";
+				INFOPLIST_FILE = "IRCServicePlugIn/IRCServicePlugIn-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/iChat/PlugIns";
+				PRODUCT_NAME = IRC;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = imserviceplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D94204136A0AF8000AA2CE /* Build configuration list for PBXProject "IRCServicePlugIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D9421A136A0AF8000AA2CE /* Debug */,
+				55D9421B136A0AF8000AA2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D9421C136A0AF8000AA2CE /* Build configuration list for PBXNativeTarget "IRCServicePlugIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D9421D136A0AF8000AA2CE /* Debug */,
+				55D9421E136A0AF8000AA2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D94201136A0AF8000AA2CE /* Project object */;
+}

@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'IRCServicePlugIn' target in the 'IRCServicePlugIn' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <Foundation/Foundation.h>
+    #import <IMServicePlugIn/IMServicePlugIn.h>
+    #import "IRCTypes.h"
+    #import "IRCConnection.h"
+#endif
